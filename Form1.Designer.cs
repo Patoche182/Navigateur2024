@@ -28,30 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
             textBox1 = new TextBox();
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
             button4 = new Button();
-            backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
-            notifyIcon1 = new NotifyIcon(components);
-            folderBrowserDialog1 = new FolderBrowserDialog();
             SuspendLayout();
             // 
             // textBox1
             // 
             textBox1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            textBox1.Location = new Point(28, 18);
+            textBox1.Location = new Point(25, 38);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(557, 23);
+            textBox1.Size = new Size(675, 23);
             textBox1.TabIndex = 0;
             // 
             // button1
             // 
             button1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            button1.Location = new Point(591, 18);
+            button1.Location = new Point(706, 38);
             button1.Name = "button1";
             button1.Size = new Size(40, 23);
             button1.TabIndex = 1;
@@ -62,7 +57,7 @@
             // button2
             // 
             button2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            button2.Location = new Point(637, 18);
+            button2.Location = new Point(752, 38);
             button2.Name = "button2";
             button2.Size = new Size(40, 23);
             button2.TabIndex = 1;
@@ -73,7 +68,7 @@
             // button3
             // 
             button3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            button3.Location = new Point(729, 18);
+            button3.Location = new Point(844, 38);
             button3.Name = "button3";
             button3.Size = new Size(40, 23);
             button3.TabIndex = 1;
@@ -84,7 +79,7 @@
             // button4
             // 
             button4.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            button4.Location = new Point(683, 18);
+            button4.Location = new Point(798, 38);
             button4.Name = "button4";
             button4.Size = new Size(40, 23);
             button4.TabIndex = 1;
@@ -92,16 +87,11 @@
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
             // 
-            // notifyIcon1
-            // 
-            notifyIcon1.Text = "notifyIcon1";
-            notifyIcon1.Visible = true;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(826, 450);
+            ClientSize = new Size(944, 523);
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
@@ -120,9 +110,5 @@
         private Button button2;
         private Button button3;
         private Button button4;
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private System.ComponentModel.BackgroundWorker backgroundWorker2;
-        private NotifyIcon notifyIcon1;
-        private FolderBrowserDialog folderBrowserDialog1;
     }
 }
