@@ -38,6 +38,7 @@
             // textBox1
             // 
             textBox1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            textBox1.BackColor = SystemColors.HotTrack;
             textBox1.Location = new Point(25, 38);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(675, 23);
@@ -68,12 +69,13 @@
             // button3
             // 
             button3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            button3.BackColor = Color.IndianRed;
             button3.Location = new Point(844, 38);
             button3.Name = "button3";
             button3.Size = new Size(40, 23);
             button3.TabIndex = 1;
             button3.Text = "R";
-            button3.UseVisualStyleBackColor = true;
+            button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
             // button4
@@ -91,6 +93,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(944, 523);
             Controls.Add(button4);
             Controls.Add(button3);
