@@ -12,13 +12,17 @@ namespace Navigateur2024
         private void button1_Click(object sender, EventArgs e)
         {
             // webBrowser1.Navigate(textBox1.Text);
+            // webBrowser1.Navigate(textBox1.Text);
             MessageBox.Show("Navigate(textBox1.Text)");
+            // MessageBox.Show("Navigate(textBox1.Text)");
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             // webBrowser1.GoBack();
+            // webBrowser1.GoBack();
             MessageBox.Show("GoBack()");
+            //MessageBox.Show("GoBack()");
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -36,7 +40,7 @@ namespace Navigateur2024
 
         private void aProposToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Navigateur développé par ta mère.");
+            MessageBox.Show("Navigateur développé par ta des mecs en blouse blanche.");
         }
     }
 }
